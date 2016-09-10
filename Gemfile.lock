@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/r-gamedev/lita-gamedev-spam
-  revision: 9bf5ed7a25c45713ffd82b1ff1b8c97373ea6b1c
+  revision: e5dbe56504b724143092fa630e324be2b97af19c
   specs:
     lita-gamedev-spam (0.1.0)
       andand
