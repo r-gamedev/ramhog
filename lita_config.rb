@@ -26,6 +26,8 @@ Lita.configure do |config|
   config.adapters.irc.password = ENV['irc_password']
   config.adapters.irc.realname = 'bother lemtzas - bot'
   config.adapters.irc.cinch = lambda do |cinch_config|
+    cinch_config.port = 6697
+    cinch_config.ssl.use = true
     cinch_config.max_messages = 3
     cinch_config.nicks = [
       'ramhog',
