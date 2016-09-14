@@ -3,6 +3,7 @@
 # ENV Validation #
 %w(irc_username
    irc_password
+   irc_channels_csv
    REDIS_URL
    rabbitmq_url)
   .select { |k| !ENV[k] }
@@ -20,7 +21,7 @@ Lita.configure do |config|
   config.robot.name = 'ramhog'
   config.robot.adapter = :irc
   config.adapters.irc.server = 'irc.freenode.net'
-  config.adapters.irc.channels = ['#reddit-gamedev', '#r-gamedev-mods']
+  config.adapters.irc.channels = ENV['irc_channels_csv'].split(',')
   config.adapters.irc.user = ENV['irc_username']
   config.adapters.irc.password = ENV['irc_password']
   config.adapters.irc.realname = 'bother lemtzas - bot'
