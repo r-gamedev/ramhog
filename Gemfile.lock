@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/r-gamedev/lita-gamedev-spam
-  revision: 7de29f6a95ab28560b0260f18a8cde733fce1686
+  revision: 92ff9efef66e9bd38df959439c672cfd341e793c
   specs:
     lita-gamedev-spam (0.1.0)
       andand
@@ -75,4 +75,4 @@ DEPENDENCIES
   redis (~> 3.2)
 
 BUNDLED WITH
-   1.12.5
+   1.13.1
