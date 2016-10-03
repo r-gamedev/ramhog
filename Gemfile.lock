@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/r-gamedev/lita-gamedev-store.git
-  revision: 9d1cf709a63075088d8465c880ee04242f3c9b1b
+  revision: ecd66d70b30df12ec9c01806d7594aa5d3a6c732
   branch: master
   specs:
     lita-gamedev-store (0.1.0)
