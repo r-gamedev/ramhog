@@ -50,8 +50,7 @@ Lita.configure do |config|
   # see https://github.com/litaio/lita-irc
   config.robot.admins = [
     '3f7a19f6-5507-4cbc-b6ea-f192ee0dffee', # lemtzas, freenode
-    'lemtzas',
-    'sn0wmonster'
+    'lemtzas'
   ]
 
   ## Example: Set configuration for any loaded handlers. See the handler's
